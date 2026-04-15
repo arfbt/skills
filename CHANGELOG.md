@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.3.1] - 2026-04-14
+
+### Added
+- Expanded `references/examples.md` into a fuller bilingual example set
+- Refined the README hero copy to better position the repository publicly
+
+### 新增
+- 将 `references/examples.md` 扩展为更完整的双语示例集
+- 微调 README 顶部文案，使仓库公开定位更清晰
+
 ## [1.3.0] - 2026-04-14
 
 ### Added

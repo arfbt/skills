@@ -2,9 +2,13 @@
 
 Better prompts. Better handoff. Better results.
 
+A public bilingual skill repository for turning vague prompts into concrete, executable instructions — starting with `prompt-optimizer`.
+
 This repository publishes bilingual AI skills that help users turn rough requests into clear, executable instructions — starting with `prompt-optimizer`.
 
 更好的 prompt，更好的交接，更好的结果。
+
+这是一个公开的双语 skill 仓库，专门用来把模糊提示词变成具体、可执行的指令，其中首个技能是 `prompt-optimizer`。
 
 这个仓库发布双语 AI skills，帮助用户把粗糙需求转化为清晰、可执行的指令，其中首个技能是 `prompt-optimizer`。
 
