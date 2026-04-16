@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0] - 2026-04-16
+
+### Added
+- Added the public `short-drama-plot-architect` skill to the repository
+- Added repository README entries for installing and navigating the new short-drama skill package
+- Added skill package structure coverage in the repository documentation
+
+### 新增
+- 向仓库新增公开的 `short-drama-plot-architect` skill
+- 在 README 中补充该短剧 skill 的安装方式与导航说明
+- 在仓库文档中补充该技能包的目录结构说明
+
 ## [1.3.1] - 2026-04-14
 
 ### Added

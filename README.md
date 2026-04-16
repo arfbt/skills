@@ -1,16 +1,16 @@
 # Skills
 
-Better prompts. Better handoff. Better results.
+Better prompts. Better stories. Better results.
 
-A public bilingual skill repository for turning vague prompts into concrete, executable instructions — starting with `prompt-optimizer`.
+A public bilingual skill repository for reusable AI agent skills — including prompt optimization and short-drama plot development.
 
-This repository publishes bilingual AI skills that help users turn rough requests into clear, executable instructions — starting with `prompt-optimizer`.
+This repository publishes bilingual AI skills that help users turn rough requests into clear, executable outputs — including `prompt-optimizer` and `short-drama-plot-architect`.
 
-更好的 prompt，更好的交接，更好的结果。
+更好的 prompt，更好的故事，更好的结果。
 
-这是一个公开的双语 skill 仓库，专门用来把模糊提示词变成具体、可执行的指令，其中首个技能是 `prompt-optimizer`。
+这是一个公开的双语 skill 仓库，用于发布可复用的 AI agent skills，当前包含提示词优化与 AI 短剧剧情开发能力。
 
-这个仓库发布双语 AI skills，帮助用户把粗糙需求转化为清晰、可执行的指令，其中首个技能是 `prompt-optimizer`。
+这个仓库发布双语 AI skills，帮助用户把粗糙需求转化为清晰、可执行的结果，目前包含 `prompt-optimizer` 和 `short-drama-plot-architect`。
 
 ## What this repository is | 这是什么仓库
 
@@ -18,12 +18,14 @@ This is a public repository of reusable AI agent skills.
 
 这是一个公开的、可复用的 AI Agent Skills 仓库。
 
-The main skill in this repository is:
+The main skills in this repository are:
 
-当前仓库的核心 skill 是：
+当前仓库的核心 skills 是：
 
 - `prompt-optimizer` — a bilingual skill that transforms short, vague prompts into concrete, structured, high-quality prompts
 - `prompt-optimizer` —— 一个双语 skill，用于把简短、模糊的提示词改写成具体、结构化、高质量的 prompt
+- `short-drama-plot-architect` — a Chinese short-drama development skill that expands rough ideas into mature, high-hook, high-twist, production-ready plot frameworks
+- `short-drama-plot-architect` —— 一个中文短剧开发 skill，用于把模糊创意扩写成成熟、吸睛、强冲突、强反转、可落地的剧情框架
 
 It is especially useful for:
 - writing
@@ -62,6 +64,22 @@ What it helps add | 它会自动补全：
 - constraints and boundaries | 约束条件
 - quality criteria | 质量标准
 
+### short-drama-plot-architect
+
+Turn a short, vague story idea into a mature Chinese AI short-drama plot framework with hooks, conflict, reversals, suspense, and episode-ready structure.
+
+把一句简短、模糊的剧情想法，扩写成成熟的中文 AI 短剧剧情框架，包含钩子、冲突、反转、悬念与可拆集结构。
+
+What it helps build | 它会重点补全：
+- high-concept hook | 一句话高概念钩子
+- protagonist / antagonist setup | 主角与对手关系设定
+- conflict and secrets | 核心冲突与秘密
+- reversal chain | 反转链条
+- emotional payoff | 情绪爆点
+- episodic structure | 分集推进结构
+- female-oriented short-drama patterns | 女性向短剧模式强化
+- production-ready plot output | 可直接开发的剧情方案
+
 ---
 
 ## Installation | 安装方式
@@ -72,6 +90,14 @@ Install with `npx skills`:
 
 ```bash
 npx skills add arfbt/skills@prompt-optimizer -g -y
+```
+
+Install `short-drama-plot-architect`:
+
+安装 `short-drama-plot-architect`：
+
+```bash
+npx skills add arfbt/skills@short-drama-plot-architect -g -y
 ```
 
 If you use Hermes, you can also add this repository as a skill source:
@@ -288,12 +314,23 @@ Examples:
 ├── README.md
 ├── LICENSE
 ├── CHANGELOG.md
-└── prompt-optimizer/
+├── prompt-optimizer/
+│   ├── SKILL.md
+│   └── references/
+│       ├── examples.md
+│       ├── use-cases.md
+│       └── output-patterns.md
+└── short-drama-plot-architect/
     ├── SKILL.md
-    └── references/
-        ├── examples.md
-        ├── use-cases.md
-        └── output-patterns.md
+    ├── references/
+    │   ├── example.md
+    │   ├── reversal-library.md
+    │   └── female-oriented-patterns.md
+    ├── templates/
+    │   ├── output-template.md
+    │   └── episode-breakdown-template.md
+    └── assets/
+        └── skill-map.md
 ```
 
 ### File Guide | 文件说明
@@ -317,6 +354,22 @@ Examples:
 - `prompt-optimizer/references/output-patterns.md`
   - recommended response/output patterns
   - 推荐输出模式
+
+- `short-drama-plot-architect/SKILL.md`
+  - the main short-drama plot development skill definition
+  - 短剧剧情开发 skill 主文件
+
+- `short-drama-plot-architect/references/`
+  - example plot outputs, reversal library, and female-oriented pattern references
+  - 示例剧情、反转库与女性向模式参考文件
+
+- `short-drama-plot-architect/templates/`
+  - structured templates for plot output and episodic breakdowns
+  - 剧情输出与分集拆解模板
+
+- `short-drama-plot-architect/assets/skill-map.md`
+  - navigation file for the whole short-drama skill package
+  - 整个短剧技能包的导航文件
 
 - `LICENSE`
   - open-source license
