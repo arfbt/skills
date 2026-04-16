@@ -383,29 +383,34 @@ Examples:
 
 ## Design Principles | 设计原则
 
-`prompt-optimizer` follows these principles:
+The skills in this repository generally follow these principles:
 
-`prompt-optimizer` 遵循以下原则：
+这个仓库中的 skills 通常遵循以下原则：
 
 ### 1. Produce first, ask later | 先产出，再补问
-If the user gives very little information, produce a strong default version first.
+If the user gives limited information, generate a strong, usable default version first, then refine only if needed.
 
-如果用户信息很少，先基于常见场景产出一个强可用版本。
+如果用户提供的信息有限，先产出一版强可用、能直接工作的默认结果，再视需要继续细化。
 
 ### 2. Preserve intent | 保留原意
-Do not silently change the user's request into a different task.
+Do not silently change the user's request into a different task or genre.
 
-不要擅自把用户原始需求改造成另一个任务。
+不要擅自把用户原始需求改造成另一个任务、类型或方向。
 
-### 3. Make prompts concrete | 从模糊到具体
-Add structure, constraints, audience, deliverables, and quality criteria.
+### 3. Turn ambiguity into structure | 从模糊到结构化
+Add the missing structure needed for execution: goals, constraints, actors, deliverables, quality bars, and next-step logic.
 
-补充结构、约束、对象、交付物和质量标准。
+补上执行所需的结构信息：目标、约束、角色、交付物、质量标准以及下一步推进逻辑。
 
 ### 4. Favor usability | 实用优先
-The output should be directly usable, not just theoretically “better”.
+Outputs should be directly reusable in real workflows, not just conceptually better or more verbose.
 
-输出应是“能直接用”的，而不是只是“看起来更专业”。
+输出应能直接进入真实工作流，而不只是概念上更好、文字上更长。
+
+### 5. Emphasize repeatability | 强调可复用性
+A good skill should make strong results repeatable, stable, and easier to extend through references, templates, and examples.
+
+一个好的 skill 应该让高质量结果可复用、可稳定复现，并且可以通过 references、templates 和 examples 持续扩展。
 
 ---
 
